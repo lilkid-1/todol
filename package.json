@@ -1,50 +1,79 @@
 {
-  "name": "todol",
-  "version": "0.0.0",
-  "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e"
+  "_from": "@angular/animations@~8.2.5",
+  "_id": "@angular/animations@8.2.7",
+  "_inBundle": false,
+  "_integrity": "sha512-Q17WadeM0WnL97Qt2xGB4LonQrVEsefjC9kUYDOIzEY9Z70eBGfH2ak6rBzlWpDmxCpIFOxEDQy/Dd3z7/nr6g==",
+  "_location": "/@angular/animations",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@angular/animations@~8.2.5",
+    "name": "@angular/animations",
+    "escapedName": "@angular%2fanimations",
+    "scope": "@angular",
+    "rawSpec": "~8.2.5",
+    "saveSpec": null,
+    "fetchSpec": "~8.2.5"
   },
-  "private": true,
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@angular/animations/-/animations-8.2.7.tgz",
+  "_shasum": "643b673e705eb10f9a0f7199de0498d635d2314c",
+  "_spec": "@angular/animations@~8.2.5",
+  "_where": "C:\\Users\\CSE\\todol",
+  "author": {
+    "name": "angular"
+  },
+  "bugs": {
+    "url": "https://github.com/angular/angular/issues"
+  },
+  "bundleDependencies": false,
   "dependencies": {
-    "@angular/animations": "~8.2.5",
-    "@angular/cdk": "~8.2.3",
-    "@angular/common": "~8.2.5",
-    "@angular/compiler": "~8.2.5",
-    "@angular/core": "~8.2.5",
-    "@angular/forms": "~8.2.5",
-    "@angular/material": "^8.2.3",
-    "@angular/platform-browser": "~8.2.5",
-    "@angular/platform-browser-dynamic": "~8.2.5",
-    "@angular/router": "~8.2.5",
-    "hammerjs": "^2.0.8",
-    "rxjs": "~6.4.0",
-    "tslib": "^1.10.0",
-    "zone.js": "~0.9.1"
+    "tslib": "^1.9.0"
   },
-  "devDependencies": {
-    "@angular-devkit/build-angular": "~0.803.4",
-    "@angular/cli": "~8.3.4",
-    "@angular/compiler-cli": "~8.2.5",
-    "@angular/language-service": "~8.2.5",
-    "@types/node": "~8.9.4",
-    "@types/jasmine": "~3.3.8",
-    "@types/jasminewd2": "~2.0.3",
-    "codelyzer": "^5.0.0",
-    "jasmine-core": "~3.4.0",
-    "jasmine-spec-reporter": "~4.2.1",
-    "karma": "~4.1.0",
-    "karma-chrome-launcher": "~2.2.0",
-    "karma-coverage-istanbul-reporter": "~2.0.1",
-    "karma-jasmine": "~2.0.1",
-    "karma-jasmine-html-reporter": "^1.4.0",
-    "protractor": "~5.4.0",
-    "ts-node": "~7.0.0",
-    "tslint": "~5.15.0",
-    "typescript": "~3.5.3"
-  }
+  "deprecated": false,
+  "description": "Angular - animations integration with web-animations",
+  "es2015": "./fesm2015/animations.js",
+  "esm2015": "./esm2015/animations.js",
+  "esm5": "./esm5/animations.js",
+  "fesm2015": "./fesm2015/animations.js",
+  "fesm5": "./fesm5/animations.js",
+  "homepage": "https://github.com/angular/angular#readme",
+  "license": "MIT",
+  "main": "./bundles/animations.umd.js",
+  "module": "./fesm5/animations.js",
+  "name": "@angular/animations",
+  "ng-update": {
+    "packageGroup": [
+      "@angular/core",
+      "@angular/bazel",
+      "@angular/common",
+      "@angular/compiler",
+      "@angular/compiler-cli",
+      "@angular/animations",
+      "@angular/elements",
+      "@angular/platform-browser",
+      "@angular/platform-browser-dynamic",
+      "@angular/forms",
+      "@angular/platform-server",
+      "@angular/platform-webworker",
+      "@angular/platform-webworker-dynamic",
+      "@angular/upgrade",
+      "@angular/router",
+      "@angular/language-service",
+      "@angular/service-worker"
+    ]
+  },
+  "peerDependencies": {
+    "@angular/core": "8.2.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angular/angular.git"
+  },
+  "sideEffects": false,
+  "typings": "./animations.d.ts",
+  "version": "8.2.7"
 }
