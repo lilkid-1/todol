@@ -1,0 +1,33 @@
+.meth{
+    text-align: center;
+    background-color: aqua;
+    padding: 0px;
+    margin-bottom: 30px;
+    margin-top: 0px;
+    font-size: 100%;
+}
+.addText{
+    text-align: center;
+    background-color: aqua;
+    padding: 0px;
+    font-size: 100%;
+}
+.addItem{
+    font-size:100%;
+    background-color: antiquewhite
+}
+button{
+    text-align: center;    
+}
+li{
+    border-bottom: 1px solid black;
+    background-color: gray;
+    padding: 10px 0px;
+    margin-bottom: 10px;
+}
+span{
+    cursor: pointer;
+    position: relative;
+    float: right;
+    margin-right: 10px;
+}
